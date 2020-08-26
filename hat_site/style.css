@@ -1,0 +1,236 @@
+html {
+    -webkit-font-smoothing: none;
+  }
+  
+  /*
+  body { cursor: url('https://i.gyazo.com/39753ec8ea0ee7b895cda88acefffa87.png'), auto; }
+  
+  .hand:active {
+      cursor: url('/images/lowclickcursor1.png');
+  }
+  */
+  body { cursor: url('arrow.png'), auto; }
+  
+  .hand:active {
+      cursor: url('click.png');
+  }
+  
+  header {
+  background-image:url("background.png");
+  }
+  
+  header {
+      width: 800px;
+      /* background-repeat:no-repeat; */
+      background-position: center;
+      height:150px;
+      background-color:#000;
+      
+      margin: auto;
+    /* width: 60%; */
+    padding: 10px;
+  }
+  
+  main {
+  height:calc(100vh - 212px);
+  overflow:auto;
+  width:99%;
+  width:calc(820px - 5px);
+  margin:0 auto;
+  padding-right:5px;
+  border-top: 1px solid #808080;
+  } 
+  
+  body {
+      background-color:#000;
+      color:#fff;
+      width:99%;
+      margin:0 auto;
+      image-rendering:pixelated;
+      font-family: "fixedsys";
+      font-size:12pt;
+     font-weight: normal; 
+     font-style: normal; 
+      padding			: 20px;
+  }
+
+  ::selection {
+    color: black;
+      background: white;
+      opacity:1;
+  }
+  
+  a {
+      color: #dddddd;
+      cursor: url("click.png"), auto;
+  }
+  a:visited {
+      color: #dddddd;
+  }
+  a:hover {
+      color: #ffffff;
+  }
+  a:focus {
+      color: #ffffff;
+  }
+  a:active {
+      color: #ffffff;
+  }
+  
+  h1{
+      font-weight:normal;
+  }
+  
+  h2{
+      font-weight:normal;
+  }
+  
+  h3{
+      font-weight:normal;
+  }
+  
+  h4{
+      font-weight:normal;
+  }
+  
+  h5{
+      font-weight:normal;
+  }
+  
+  h6{
+      font-weight:normal;
+  }
+  
+  strong {
+    font-weight: normal;
+    color: #808080;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 1px solid #808080;
+    height:2px;
+    border-bottom: 1px solid #808080;
+  }
+  
+  /* windows 95 scrollbar */
+  ::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACAQMAAABIeJ9nAAAABlBMVEX////AwMCU81DAAAAADElEQVQIHWNoYHAAAAHEAMEKQ169AAAAAElFTkSuQmCC);
+    background-size: 2px;
+  }
+  ::-webkit-scrollbar-track {
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: silver;
+    border-left: ridge 2px #fff;
+    border-top: ridge 2px #fff;
+    border-right: ridge 2px grey;
+    border-bottom: ridge 2px grey;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background-color: #d0d0d0;
+  }
+  ::-webkit-scrollbar-button {
+    background-color: darkgrey;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAPBAMAAABKPLFCAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAIVBMVEUAAACGhILr6ulbWlqop6ddXV0hISHk4+MAAABubm3///8cDMtbAAAAAXRSTlMAQObYZgAAAAFiS0dECmjQ9FYAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfgChMNNQqYsOkJAAAAfElEQVQY02MQhAABQRTAABVlEFICA0EIpYjGpZ60CUTaGcoNQpVWTodIlxmBuaqtEGl3JXUnED+sCCKtngqWNptmBJY2KwKqF1RS7YTZPSMIyFVOV08GSytnJith6lYpUiqB2B0RhM1uuMtVsbucusGCTZoRJYpgACoqCABTOTzVZ8THeQAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNi0xMC0xOVQxNTo1MToyOCswMjowMPJE7xwAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTYtMTAtMTlUMTU6NTE6MjgrMDI6MDCDGVegAAAAAElFTkSuQmCC);
+    width: 15px;
+    height: 15px;
+  }
+  ::-webkit-scrollbar-button:vertical:start {
+    background-position: -45px 0;
+  }
+  ::-webkit-scrollbar-button:vertical:end {
+    background-position: 0 0;
+  }
+  ::-webkit-scrollbar-button:horizontal:start {
+    background-position: -15px 0;
+  }
+  ::-webkit-scrollbar-button:horizontal:end {
+    background-position: -30px 0;
+  }
+  /* end of scrollbar */
+  
+  /*
+  nav {
+      height:60px;
+      overflow:auto;
+      width:99%;
+      margin:0 auto;
+      border-bottom: 1px solid #46eeff;
+      text-align:center;
+  }
+  nav p {
+      display:inline;
+      font-size:15pt;
+  }
+  
+  nav {
+          height:calc(100vh - 150px);
+          overflow:auto;
+          float:top;
+          width:calc(25% - 5px);
+          padding-left:5px;
+          border:0;
+          text-align:top;
+  }
+  nav p {
+          display:block;
+          font-size:12pt;
+  }
+  */
+  
+  img { 
+      image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+      image-rendering: -moz-crisp-edges;          /* Firefox                        */
+      image-rendering: -o-crisp-edges;            /* Opera                          */
+      image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+      image-rendering: pixelated; /* Chrome */
+      image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+      -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+  
+  }
+
+  cursor { /* I wish this worked with cursors. The Windows 95 cursor looks really ugly with anti-aliasing */
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated; /* Chrome */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+
+}
+
+/* This is to resize some images */
+img.bruhmoment {
+  max-width:80%;
+  max-height:80%;
+}
+
+img.oldsitescreenshot {
+  max-width:80%;
+  max-height:80%;
+}
+
+img.siteapp {
+  max-width:80%;
+  max-height:80%;
+}
+img.ehoiya {
+  max-width:90%;
+  max-height:90%;
+}
+
+/* Resize images on the blog */
+img.wtf {
+  max-width:50%;
+  max-height:50%;
+}
+
+img.someproblems {
+  max-width:50%;
+  max-height:50%;
+}

@@ -1,0 +1,19 @@
+/* Main CSS for the homepage. Don't mess around with this shit */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 .02rem .1rem rgba(0, 0, 0, .5);
+  background-color: #333;
+}
+#shadow, body, html {
+    position:fixed; /* so it will do it by how tall the browser window is, not how tall the content is */
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}

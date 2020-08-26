@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background-color: #2d3436;
+}
+
+p {
+    color: white;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: "Roboto Dark";
+    text-align: center;
+}

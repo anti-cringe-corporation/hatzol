@@ -1,0 +1,48 @@
+h1{
+    color:#28fe14
+}
+h2{
+    color:#28fe14
+}
+p1{
+    color:#28fe14
+}
+p2{
+    color:#28fe14
+}
+
+body {
+    background-color: #000000;
+    font-family: 'Perfect DOS VGA 437';
+    color:#28fe14;
+}
+
+a {
+    color: #28fe14;
+}
+a:focus {
+    color: green;
+}
+a:hover {
+    color: green;
+}
+
+::selection {
+    color: black;
+      background: #28fe14;
+      opacity:1;
+  }
+
+@font-face {
+    font-family: 'Perfect DOS VGA 437';
+    src: url('dos.eot'); /* IE9 Compat Modes */
+    src: url('dos.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('dos.woff') format('woff'), /* Modern Browsers */
+         url('dos.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('dos.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+video.koreanorange {
+    max-width:30%;
+    max-height:30%;
+}
