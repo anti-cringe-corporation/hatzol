@@ -1,8 +1,7 @@
+# ignore this it doesnt work because github poopoo
+
 # this is so it wouldnt need a file extension
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
-
-# this site doesnt run the apache web server rn so this file
-# doesnt do anything for now until dominick starts hosting the site
