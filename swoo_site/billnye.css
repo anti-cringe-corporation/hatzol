@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #54a0ff;
+    background: linear-gradient(120deg, rgba(84,160,255,1) 0%, rgba(68,129,227,1) 100%);
     position: fixed;
     top: 0;
     width: 100%;
@@ -31,6 +31,24 @@ ul {
   }
     
     body {
-          font-family: Trebuchet MS;
+         
           background-color: #c8d6e5;
+          font-family: Trebuchet MS;
     }
+    
+    h1 {
+    font-family: Trebuchet MS;
+    text-align: center;
+    color: #000000;
+  
+}
+h2 {
+    font-family: Trebuchet MS;
+    text-align: center;
+    color: #000000;
+}
+h3 {
+    font-family: Trebuchet MS;
+    text-align: center;
+    color: #000000;
+}
